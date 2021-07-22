@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.center{
+    text-align: center;
+}
+
+.nav a{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+.nav{
+    background-color: rgb(47, 47, 47);
+    padding: 15px;
+    font-family: 'Rock Salt', cursive;
+}
+nav ul{
+    display: inline-block;
+    color: black;
+    font-family: 'Rock Salt', cursive;
+}
+
+nav li{
+    display: inline-block;
+    padding-inline: 40px;
+    list-style-type: none;
+    font-family: 'Rock Salt', cursive;
+}
+
+nav{
+    background-color: rgb(78, 78, 78);
+    padding: 8px;
+    font-family: 'Rock Salt', cursive;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+}
+
+
+.active{
+    color: #FF54D1;
+}
+
+nav a:hover{
+    color: red;
+    transition: var(--trans,color .4s ease 0s);
+}
+
+.presentazione img{
+    border-radius: 80%;
+    -webkit-box-shadow: 5px 5px 23px -1px #000000; 
+    box-shadow: 5px 5px 23px -1px #000000;
+    margin: 40px;
+}
+
+.presentazione{
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 95%;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgb(70 70 70 / 30%);
+    line-height: 2;
+    font-weight: 600px;
+}
+
+#logo{
+    border-radius: 100%;
+}
+
+.video{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 95%;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgb(70 70 70 / 30%);
+}
+
+
+.video img{
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.video:hover{
+    background-color: white;
+}
+
+.concert_prenot{
+    padding: 10px;
+    width: 85%;
+    background-color: #FF54D1;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.next_concerts{
+    margin: 15px;
+    text-align: center;
+}
+
+.next_concerts{
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    max-width: 95%;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgb(70 70 70 / 30%);
+    display: inline-block;
+    font-size: 25px;
+    line-height: 2.3;
+}
+
+.contact{
+    padding: 20px;
+    margin: 20px;
+    width: 65%;
+    max-width: 95%;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgb(70 70 70 / 30%);
+    display: inline-block;
+}
+
+.inputs{
+    padding: 10px;
+    width: 15%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.subscribe{
+    padding: 10px;
+    width: 15%;
+    background-color: #FF54D1;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.subscribe:hover{
+    padding: 10px;
+    width: 15%;
+    background-color: #ff3ecc;
+    color: white;
+    cursor: pointer;
+}
+
+.news_letter{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 95%;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgb(70 70 70 / 30%);
+}
+
+.contact_user{
+    text-decoration: none;
+    background-color: #FF54D1;
+    color: white;
+    padding: 7px;
+}
+
+.images{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 95%;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 10px 50px rgb(70 70 70 / 30%)
+}
+
+.images img{
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.data_exp{
+    border: 2px solid rgb(218, 4, 4);
+    width: 100px;
+    height: 50px;
+    color: red;
+}
+
+.copyright{
+    font-size: 23px;
+}
+
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#video_player
+{
+ width:400px;
+ border-radius: 25px;
+}
+
+@media screen and (max-width: 840px) {
+    nav li{
+        display: block;
+    }
+
+    .next_concerts{
+        padding: 20px;
+        margin: 20px;
+        width: 80%;
+        max-width: 95%;
+        border-radius: 25px;
+        background: white;
+        box-shadow: 0px 10px 50px rgb(70 70 70 / 30%);
+        display: block;
+        font-size: 25px;
+        line-height: 2.3;
+    }
+    #fb{
+        display: none;
+    }
+    #yt{
+        display: none;
+    }
+
+    .nav_bar{
+        position: relative;
+        width: 100%;
+    }
+
+    .presentazione{
+        width: 80%;
+    }
+
+    .presentazione img{
+        margin: 0;
+        padding: 0;
+        margin-top: 6;
+    }
+
+    .video iframe{
+        display: inline-block;
+    }
+}
